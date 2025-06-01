@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+  --color-accent: #179957;
+  --color-accent-dark: #184D47;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
