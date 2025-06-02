@@ -1,5 +1,6 @@
 import { IoSearchSharp } from "react-icons/io5";
-import { FaRegUser } from "react-icons/fa";
+import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
+import CartCountBadge from "./CartCountBadge";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,11 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-4">
                   <div className="icon__wrapper">
-                    <FaRegUser />
+                    <AiOutlineUser />
+                  </div>
+                  <div className="icon__wrapper relative">
+                    <AiOutlineShoppingCart />
+                    <CartCountBadge size="w-[25px] h-[25px]"/>
                   </div>
                 </div>
             </div>
