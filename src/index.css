@@ -10,3 +10,9 @@
     max-width: 80%;
     margin: auto;
 }
+
+@layer components {
+  .icon__wrapper {
+    @apply border border-gray-400 rounded-full w-[45px] h-[45px] grid place-items-center text-[22px];
+  }
+}

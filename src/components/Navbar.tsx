@@ -1,4 +1,5 @@
 import { IoSearchSharp } from "react-icons/io5";
+import { FaRegUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -10,6 +11,11 @@ const Navbar = () => {
                   <input className="bg-[#f2f3f5] border-none outline-none px-6 py-3 rounded-[30px] w-full " 
                   type="text" placeholder="Search Product..." />
                   <IoSearchSharp className="absolute top-0 right-0 mt-4 mr-4 text-gray-500" size={20}/>
+                </div>
+                <div className="flex gap-4">
+                  <div className="icon__wrapper">
+                    <FaRegUser />
+                  </div>
                 </div>
             </div>
         </div>
