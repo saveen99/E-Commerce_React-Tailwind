@@ -1,3 +1,4 @@
+import MobNavbar from "./components/MobNavbar"
 import Navbar from "./components/Navbar"
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
     <>
       <main>
         <Navbar />
+        <MobNavbar />
       </main>
     </>
   )
