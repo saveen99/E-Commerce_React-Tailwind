@@ -18,6 +18,33 @@ const Hero = () => {
                   </div>
                 </div>
             </div>
+
+            <div className="relative">
+              <img className="h-full w-full object-cover rounded-lg" src="/hero__2.jpg" alt="hero image" />
+              <div className="absolute max-w-[470px] sm:ml-16 xl:ml-10 2xl:ml-16 ml-8 top-[50%] -translate-y-[50%] sm:space-y-2">
+                <h2 className="text-2xl sm:text-3xl md:text-6xl xl:text-2xl 2xl:text-3xl font-bold">Best Yummy Pizza</h2>
+                <p className="text-gray-500 text-xl pt-4">Starting At</p>
+                <div className="font-medium text-red-600 text-2xl sm:text-4xl pb-8">$25</div>
+                <div className="bg-accent hover:bg-accent-dark text-white rounded-full w-fit flex items-center
+                gap-4 px-4 py-2 text-[14px] cursor-pointer">
+                  Shop Now <BsArrowRight />
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative">
+              <img className="h-full w-full object-cover rounded-lg" src="/hero__3.jpg" alt="hero image" />
+              <div className="absolute max-w-[470px] sm:ml-16 xl:ml-10 2xl:ml-16 ml-8 top-[50%] -translate-y-[50%] sm:space-y-2">
+                <h2 className="text-2xl sm:text-3xl md:text-6xl xl:text-2xl 2xl:text-3xl font-bold">Best Yummy Chips</h2>
+                <p className="text-gray-500 text-xl pt-4">Starting At</p>
+                <div className="font-medium text-red-600 text-2xl sm:text-4xl pb-8">$10</div>
+                <div className="bg-accent hover:bg-accent-dark text-white rounded-full w-fit flex items-center
+                gap-4 px-4 py-2 text-[14px] cursor-pointer">
+                  Shop Now <BsArrowRight />
+                </div>
+              </div>
+            </div>
+
         </div>
     </div>
   )
