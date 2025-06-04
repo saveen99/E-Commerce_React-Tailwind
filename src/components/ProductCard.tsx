@@ -22,7 +22,22 @@ const ProductCard: React.FC<propsType> = ({ img, name, price }) => {
             <img src={img} alt={name} />
 
             <div className='space-y-2 relative p-4'>
-                <div className='text-yellow-400 flex gap-[2px] text-[20px]'></div>
+                <div className='text-yellow-400 flex gap-[2px] text-[20px]'>
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiOutlineStar />
+                </div>
+                <h3 className='font-medium'>{name}</h3>
+
+                <h3 className='text-2xl font-medium text-red-700'>{price}</h3>
+
+                <button className='absolute -top-4 right-2 bg-accent text-white text-[28px] w-[50px] h-[50px] rounded-full
+                grid place-items-center cursor-pointer'
+                >
+                    <AiOutlineShopping />
+                </button>
             </div>
         </div>
   )
