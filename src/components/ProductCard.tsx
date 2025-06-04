@@ -21,7 +21,9 @@ const ProductCard: React.FC<propsType> = ({ img, name, price }) => {
         rounded-lg relative'>
             <img src={img} alt={name} />
 
-            <div className='space-y-2 relative p-4'></div>
+            <div className='space-y-2 relative p-4'>
+                <div className='text-yellow-400 flex gap-[2px] text-[20px]'></div>
+            </div>
         </div>
   )
 }
