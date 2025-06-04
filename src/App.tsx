@@ -1,3 +1,4 @@
+import Category from "./components/Category"
 import Hero from "./components/Hero"
 import MobNavbar from "./components/MobNavbar"
 import Navbar from "./components/Navbar"
@@ -9,6 +10,7 @@ const App = () => {
         <Navbar />
         <MobNavbar />
         <Hero />
+        <Category />
       </main>
     </>
   )
