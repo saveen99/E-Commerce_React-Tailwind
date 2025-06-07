@@ -1,4 +1,3 @@
-
 const Banner = () => {
   return (
     <div className="container pt-16">
