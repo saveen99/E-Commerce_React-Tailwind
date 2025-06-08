@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import BlogSection from "./components/BlogSection"
 import Category from "./components/Category"
 import FeatureSectionBreakfast from "./components/FeatureSectionBreakfast"
 import FeatureSectionFruits from "./components/FeatureSectionFruits"
@@ -17,6 +18,7 @@ const App = () => {
         <FeatureSectionFruits />
         <FeatureSectionBreakfast />
         <Banner />
+        <BlogSection />
       </main>
     </>
   )
