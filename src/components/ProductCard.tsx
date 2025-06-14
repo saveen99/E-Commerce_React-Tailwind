@@ -1,6 +1,6 @@
 import { AiFillStar, AiOutlineStar, AiOutlineShopping } from 'react-icons/ai';
-/*import { useCartContext } from "../context/cartContext";
-import { toast } from "react-hot-toast";*/
+import { useCartContext } from '../context/cartContext';
+import { toast } from "react-hot-toast";
 
 interface propsType {
     img: string;
@@ -9,12 +9,12 @@ interface propsType {
 }
 
 const ProductCard: React.FC<propsType> = ({ img, name, price }) => {
-    /*const { addToCart } = useCartContext();
+    const { addToCart } = useCartContext();
 
     const addProductToCart = () => {
-        toast.success("Added to Cart!");
+        //toast.success("Added to Cart!");
         addToCart({ img, name, price });
-    };*/
+    };
 
     return (
         <div className='border border-gray-200 hover:border-gray-300 hover:scale-105 transition-transform 
