@@ -11,6 +11,7 @@ import MobNavbar from "./components/MobNavbar"
 import Navbar from "./components/Navbar"
 import NewsLetter from "./components/NewsLetter"
 import { CartContextProvider } from "./context/cartContext"
+import Cart from "./components/Cart"
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
@@ -29,6 +30,7 @@ const App = () => {
           <NewsLetter />
           <Feature />
           <Footer />
+          {showCart && <Cart showCart={showCart} setShowCart={setShowCart} />}
         </main>
       </CartContextProvider>
     </>
