@@ -12,7 +12,9 @@ const MobNavbar = ({setShowCart}: any) => {
                     <IoIosMenu size={30} />
                     <IoSearchSharp size={24}/>
                 </div>
-                <h1 className="text-4xl">Logo</h1>
+                <h1 className="text-4xl">
+                    <img className="w-full h-[50px]" src="/logo.png" alt="logo" />
+                </h1>
                 <div className="flex gap-4 text-[30px]">
                     <AiOutlineUser />
                     <div className="relative cursor-pointer" onClick={() => setShowCart(true)}>
