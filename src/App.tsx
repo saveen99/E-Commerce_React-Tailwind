@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Banner from "./components/Banner"
 import BlogSection from "./components/BlogSection"
 import Category from "./components/Category"
@@ -9,23 +10,27 @@ import Hero from "./components/Hero"
 import MobNavbar from "./components/MobNavbar"
 import Navbar from "./components/Navbar"
 import NewsLetter from "./components/NewsLetter"
+import { CartContextProvider } from "./context/cartContext"
 
 const App = () => {
+  const [showCart, setShowCart] = useState(false);
   return (
     <>
-      <main>
-        <Navbar />
-        <MobNavbar />
-        <Hero />
-        <Category />
-        <FeatureSectionFruits />
-        <FeatureSectionBreakfast />
-        <Banner />
-        <BlogSection />
-        <NewsLetter />
-        <Feature />
-        <Footer />
-      </main>
+      <CartContextProvider>
+        <main>
+          <Navbar setShowCart={setShowCart} />
+          <MobNavbar setShowCart={setShowCart} />
+          <Hero />
+          <Category />
+          <FeatureSectionFruits />
+          <FeatureSectionBreakfast />
+          <Banner />
+          <BlogSection />
+          <NewsLetter />
+          <Feature />
+          <Footer />
+        </main>
+      </CartContextProvider>
     </>
   )
 }
