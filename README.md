@@ -10,10 +10,5 @@
 <p align="center" ><img  src = "screenshots/006.png?raw=true" width = 1000px></p>
 <p align="center" ><img  src = "screenshots/007.png?raw=true" width = 1000px></p>
 
-
-
-
-
-
 ### Add to Cart 
 <p align="center" ><img  src = "screenshots/008.png?raw=true" width = 1000px></p>
