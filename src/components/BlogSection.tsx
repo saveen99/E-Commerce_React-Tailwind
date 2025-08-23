@@ -1,20 +1,23 @@
 import BlogCard from './BlogCard'
+import post1 from  "../assets/images/post__1.jpg"
+import post2 from  "../assets/images/post__2.jpg"
+import post3 from  "../assets/images/post__3.jpg"
 
 const data = [
     {
-        img: "/post__1.jpg",
+        img: post1,
         title: "5 Superfoods to Boost Your Immunity This Season",
         date: "Aug 27, 2023",
         comment: 8,
     },
     {
-        img: "/post__2.jpg",
+        img: post2,
         title: "Behind the Scenes: How Your Order is Packed with Love",
         date: "Aug 25, 2023",
         comment: 1,
     },
     {
-        img: "/post__3.jpg",
+        img: post3,
         title: "Meal Planning Made Easy: Your Weekly Food Shopping List",
         date: "Aug 30, 2023",
         comment: 6,

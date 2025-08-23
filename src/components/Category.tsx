@@ -1,53 +1,61 @@
 import CategoryCard from "./CategoryCard";
+import category1 from  "../assets/images/category__1.jpg"
+import category2 from  "../assets/images/category__2.jpg"
+import category3 from  "../assets/images/category__3.jpg"
+import category4 from  "../assets/images/category__4.jpg"
+import category5 from  "../assets/images/category__5.jpg"
+import category6 from  "../assets/images/category__6.png"
+import category7 from  "../assets/images/category__7.jpg"
+import category8 from  "../assets/images/category__8.jpg"
 
 const data = [
     {
         id: 0,
         name: "Fresh Fruits",
         count: "9 Products",
-        img: "/category__1.jpg",
+        img: category1,
     },
     {
         id: 1,
         name: "Fresh Vegs",
         count: "8 Products",
-        img: "/category__2.jpg",
+        img: category2,
     },
     {
         id: 2,
         name: "Chocolates",
         count: "10 Products",
-        img: "/category__3.jpg",
+        img: category3,
     },
     {
         id: 3,
         name: "Bread & Bakery",
         count: "12 Products",
-        img: "/category__4.jpg",
+        img: category4,
     },
     {
         id: 4,
         name: "Fishes & Seafoods",
         count: "10 Products",
-        img: "/category__5.jpg",
+        img: category5,
     },
     {
         id: 5,
         name: "Eggs & Dairy",
         count: "7 Products",
-        img: "/category__6.png",
+        img: category6,
     },
     {
         id: 6,
         name: "Soft Drinks",
         count: "5 Products",
-        img: "/category__7.jpg",
+        img: category7,
     },
     {
         id: 7,
         name: "Biscuits & Cookies",
         count: "8 Products",
-        img: "/category__8.jpg",
+        img: category8,
     },
 ];
 
