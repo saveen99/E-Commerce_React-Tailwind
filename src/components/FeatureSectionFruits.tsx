@@ -3,6 +3,7 @@ import product1 from "../assets/images/product__1.jpg";
 import product2 from "../assets/images/product__2.jpg";
 import product3 from "../assets/images/product__3.jpg";
 import product4 from "../assets/images/product__4.jpg";
+import feature from "../assets/images/feature__1.jpg";
 
 const data = [
     { id: 0, img: product1, name: "Dried Mango", price: "$500" },
@@ -30,7 +31,7 @@ const FeatureSectionFruits = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
             <div>
-                <img className="w-full h-full object-cover" src="/feature__1.jpg" alt="banner" />
+                <img className="w-full h-full object-cover" src={feature} alt="banner" />
             </div>
             {data.map((el) => (
                 <ProductCard 
