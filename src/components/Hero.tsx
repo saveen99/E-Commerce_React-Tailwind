@@ -2,13 +2,14 @@ import { BsArrowRight } from "react-icons/bs";
 import heroImg1 from "../assets/images/hero__1.webp";
 import heroImg2 from "../assets/images/hero__2.webp";
 import heroImg3 from "../assets/images/hero__3.1.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Hero = () => {
   return (
     <div className="container">
         <div className="grid xl:grid-cols-3 xl:grid-rows-2 gap-8">
             <div className="xl:col-span-2 xl:row-start-1 xl:row-end-[-1] relative">
-                <img className="w-full h-full object-cover rounded-lg" src={heroImg1} alt="hero image" />
+                <LazyLoadImage className="w-full h-full object-cover rounded-lg" src={heroImg1} alt="hero image" />
 
                 <div className="absolute max-w-[470px] sm:ml-16 ml-8 top-[50%] -translate-y-[50%] sm:space-y-4">
                   <p className="text-2xl hidden sm:block">100% Original Dry Fruits</p>
