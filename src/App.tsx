@@ -15,6 +15,7 @@ import Cart from "./components/Cart"
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
+
   return (
     <>
       <CartContextProvider>
