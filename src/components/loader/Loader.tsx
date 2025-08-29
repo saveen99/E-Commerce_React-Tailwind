@@ -1,6 +1,5 @@
 import React from "react"
 import { motion } from "framer-motion"
-import { ShoppingBag } from "lucide-react"
 
 const Loader: React.FC = () => {
   return (
