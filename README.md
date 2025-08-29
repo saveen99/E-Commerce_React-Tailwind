@@ -1,10 +1,16 @@
 ### E Commerce Website React + TypeScript + Vite
 Developed a responsive and user-friendly online grocery store using modern front-end technologies. The platform features product categories, search functionality, promotional banners, and a shopping cart system, providing a seamless online shopping experience.
 
+URL:
+`
+https://shevononlinemart.vercel.app/
+`
+
 ### Technologies
 - TypeScript
 - React
 - Tailwind CSS
+- Vercel
 
 ### Home Page
 <p align="center" ><img  src = "screenshots/001.png?raw=true" width = 1000px></p>
