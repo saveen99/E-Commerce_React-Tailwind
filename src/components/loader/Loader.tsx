@@ -20,7 +20,7 @@ const Loader: React.FC = () => {
         </motion.div>
 
         {/* Text */}
-        <p className="text-lg font-medium text-neutral-700">Loading your shop…</p>
+        <p className="text-lg font-medium text-neutral-700">Loading Shevon Onlinemart…</p>
 
         {/* Progress Bar */}
         <div className="h-2 w-40 overflow-hidden rounded-full bg-neutral-200">
