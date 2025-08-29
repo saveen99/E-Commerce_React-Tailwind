@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Banner from "./components/Banner"
 import BlogSection from "./components/BlogSection"
 import Category from "./components/Category"
@@ -12,11 +12,27 @@ import Navbar from "./components/Navbar"
 import NewsLetter from "./components/NewsLetter"
 import { CartContextProvider } from "./context/cartContext"
 import Cart from "./components/Cart"
+import Loader from "./components/loader/Loader"
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
+  // loader state
+  const [isLoading, setIsLoading] = useState(true);
 
-  return (
+  // create async method to fetch fake data
+  useEffect(() => {
+    const fakeDataFetch = () => {
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 4000);
+    };
+
+    fakeDataFetch();
+  }, []);
+
+  return isLoading ? (
+    <Loader />
+  ) : (
     <>
       <CartContextProvider>
         <main>
