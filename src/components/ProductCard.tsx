@@ -3,7 +3,6 @@
 
 
 
-
 import { AiFillStar, AiOutlineStar, AiOutlineShopping } from 'react-icons/ai';
 import { useCartContext } from '../context/cartContext';
 
