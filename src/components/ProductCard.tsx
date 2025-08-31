@@ -28,14 +28,15 @@ const ProductCard: React.FC<propsType> = ({ img, name, price }) => {
                     <AiFillStar />
                     <AiOutlineStar />
                 </div>
-                <h3 className='font-medium'>{name}</h3>
+                <h3 className=' font-medium'>{name}</h3>
 
-                <h3 className='text-2xl font-medium text-red-700'>{price}</h3>
+                <h3 className='xxs:text-md text-2xl font-medium text-red-700'>{price}</h3>
 
-                <button className='absolute -top-4 right-2 bg-accent text-white text-[28px] w-[50px] h-[50px] rounded-full
+                <button className='absolute -top-4 right-2 bg-accent text-white text-[28px] xxs:w-[30px] xxs:h-[30px] w-[50px] h-[50px] rounded-full
                 grid place-items-center cursor-pointer' onClick={addProductToCart}
                 >
                     <AiOutlineShopping />
+                    
                 </button>
             </div>
         </div>

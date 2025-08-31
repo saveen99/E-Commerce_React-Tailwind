@@ -29,7 +29,7 @@ const FeatureSectionBreakfast = () => {
 
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
+        <div className="grid xxs:grid-cols-2 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
             <div>
                 <img className="w-full h-full object-cover" src={feature} alt="banner" />
             </div>
