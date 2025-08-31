@@ -13,10 +13,10 @@ const MobNavbar = ({setShowCart}: any) => {
                 </h1>
 
                 <div className="flex items-center gap-6">
-                    <IoSearchSharp size={24}/>
+                    <IoSearchSharp size={22}/>
                 </div>
 
-                <div className="flex gap-4 text-[30px]">
+                <div className="flex gap-4 text-[22px]">
                     <div className="relative cursor-pointer" onClick={() => setShowCart(true)}>
                         <AiOutlineShoppingCart />
                         <CartCountBadge size="w-[20px] h-[20px]" />
