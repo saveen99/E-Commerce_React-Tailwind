@@ -1,6 +1,5 @@
 
 
-
 import { useEffect, useState } from "react"
 import Banner from "./components/Banner"
 import BlogSection from "./components/BlogSection"
