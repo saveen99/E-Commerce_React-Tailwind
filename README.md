@@ -34,7 +34,6 @@
 
 
 
-
 ### E Commerce Website React + TypeScript
 Developed a responsive and user-friendly online grocery store using modern front-end technologies. The platform features product categories, search functionality, promotional banners, and a shopping cart system, providing a seamless online shopping experience.
 
